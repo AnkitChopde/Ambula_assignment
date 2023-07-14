@@ -1,0 +1,27 @@
+.grid{
+    display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+ row-gap:2rem;
+ column-gap:1rem;
+}
+.category{
+    color:grey
+}
+.card{
+    padding:1.5rem;
+    width:20rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.truncated {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .cartButton{
+    padding:1rem 2rem;
+    color:#ffffff;
+    font-weight:bold;
+    border:none;
+    background-color:orangered;
+  }
